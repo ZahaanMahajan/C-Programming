@@ -33,7 +33,7 @@ int main(){
 
        int num;
        printf("Enter the Decimal Number : ");
-       scanf("%d",&num);
+       scanf("%d", &num);
 
        DecToBin(num);
        printf("Binary equivalent of given decimal %d is : ",num);
