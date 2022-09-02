@@ -9,13 +9,15 @@ int main()
     double time_spent = 0.0;
  
     clock_t begin = clock();
- 
+ int count;
     // do some stuff here
-       int i;
-       for (i = 0; i < 1000000; i++) {
-           i++;        
+       for (int i = 0; i < 1000; i++) {
+           for (int j = 0; j < 10000; j++){
+                for (int k = 0; k < count; k++)
+                    count++;
+           }
        }
-       printf("%d\n",i);
+       printf("%d\n",count);
 
     sleep(3);
  
