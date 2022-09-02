@@ -43,6 +43,7 @@ int dequeue(struct queue *q)
        else
        {
               q->f++;
+              printf("Element %d dequeued!\n", q->arr[q->f]);
               return q->arr[q->f];
        }
        
@@ -77,6 +78,7 @@ int main(){
        enqueue(&q, 15);
 
        display(&q);
+       printf("\n");
 
        // dequeuing elements
        dequeue(&q);
