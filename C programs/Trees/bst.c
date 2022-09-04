@@ -70,9 +70,9 @@ struct node *insert(struct node *root, int data)
 }
 
 int main(){
+
        struct node *root = NULL;
        root = insert(root, 50);
-
 
        insertLeft(root,40);
        insertRight(root,60);
@@ -82,9 +82,6 @@ int main(){
        insertRight(root->right,65);
 
        inOrderTraversal(root);
-
-       // bool result = search(root,65);
-       // printf("\n %d  ",result);
 
        insert(root, 47);
        printf("\n");

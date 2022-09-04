@@ -53,8 +53,17 @@ int main(){
 
        int array[] = {3,2,4,8,6,7,9,3,4,5};
        int size = sizeof(array)/sizeof(int);
+
+       printf("\n");
+       printf("The array before sorting : ");
        print(array,size);
+
+       printf("\n");
        countSort(array,size);
+
+       printf("The array after sorting : ");
        print(array,size);
+       printf("\n");
+
 
 }

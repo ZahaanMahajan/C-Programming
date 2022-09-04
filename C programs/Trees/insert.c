@@ -71,11 +71,15 @@ int main()
        insert(root, 8);
        insert(root, 7);
 
+       printf("\n");
        inOrderTraversal(root);
+       printf("\n");
 
        if(search(root,1098))
-              printf("\nThe target is present in BST.");
+              printf("\nThe target is present in BST.\n");
        else
-              printf("\nThe target is not present in BST.");
+              printf("\nThe target is not present in BST.\n");
+
+       printf("\n");
 
 }

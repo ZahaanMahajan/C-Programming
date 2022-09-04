@@ -87,5 +87,8 @@ int main(){
        
        display(&q);
 
+       printf("\n");
+       printf("\n");
+       printf("\n");
 
 }

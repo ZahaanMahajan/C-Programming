@@ -38,12 +38,15 @@ int main(){
        int arr[] = {188,34,63,83,123,12,12,481,4,89,1802,26,346,68,986};
        int length = sizeof(arr)/sizeof(arr[0]);
 
+       printf("\n");
        printf("The array before sorting : ");
        print(arr,length);
 
        bubbleSort(arr, length);
+       printf("\n");
        
        printf("The array after sorting : ");
        print(arr,length);
+       printf("\n");
 
 }
