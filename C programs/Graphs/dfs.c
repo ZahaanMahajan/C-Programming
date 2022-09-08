@@ -28,7 +28,7 @@ void DFS(struct Graph *graph, int vertex)
        struct node *temp = adjList;
 
        graph->visited[vertex] = 1;
-       printf("Visited %d \n", vertex);
+       printf(" %d ", vertex);
 
        while (temp != NULL)
        {
@@ -108,9 +108,11 @@ int main()
        addEdge(graph, 1, 2);
        addEdge(graph, 2, 3);
 
-       printGraph(graph);
+       // printGraph(graph);
 
+       printf("\n");
        DFS(graph, 2);
+       printf("\n");
 
        return 0;
 }

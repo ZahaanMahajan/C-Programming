@@ -70,6 +70,8 @@ int main()
 
            };
 
+       
+
        printf("%d ", i);
        visited[i] = 1;
        enqueue(&q, i);
