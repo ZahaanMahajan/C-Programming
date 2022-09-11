@@ -21,7 +21,6 @@ int pop(){
        int value;
        if(top == -1){
               printf("Stack is Empty");
-              
        }
        else{
               value = stack_arr[top];
