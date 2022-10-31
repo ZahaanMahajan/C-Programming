@@ -21,7 +21,6 @@ struct node *insert_node(struct node *head ,int data, int pos){
        
        ptr2->link = ptr->link;
        ptr->link = ptr2;
-
 }
 
 struct node *end_insertion(struct node *head,int data){
